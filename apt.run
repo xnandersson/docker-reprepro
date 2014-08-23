@@ -1,0 +1,3 @@
+#gpg --batch --gen-key apt.batch
+KEY=$(gpg --no-default-keyring --keyring ./apt.pub --list-keys | egrep '[A-F0-9]{8}' | cut -c13-20)
+echo $KEY

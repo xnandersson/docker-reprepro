@@ -1,0 +1,7 @@
+Origin: APT in Docker Project
+Label: APT in Docker Project
+Codename: trusty
+Architectures: i386 amd64
+Components: main
+Description: Apt repository for project x
+SignWith: F8437BFE

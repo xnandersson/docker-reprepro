@@ -1,0 +1,11 @@
+%echo "Generating apt.key"
+%pubring ./apt.pub
+%secring ./apt.sec
+Key-Type: DSA
+Key-Length: 1024
+Key-Usage: auth sign
+Name-Real: Docker APT
+Name-Comment: Repository
+Name-Email: apt@openforce.org
+Expire-Date: 365d
+%commit
